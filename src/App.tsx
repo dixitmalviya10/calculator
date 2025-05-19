@@ -3,7 +3,7 @@ import { CALCINPUTS } from "./constants/options";
 import { playClickSound } from "./utils/clickSound";
 import { useKeyboardInput } from "./hooks/useKeyboardInput";
 import { evaluate } from "mathjs";
-import Panel from "./components/Panel";
+// import Panel from "./components/Panel";
 
 function App() {
   const [value, setValue] = useState("0");
@@ -71,7 +71,7 @@ function App() {
           </div>
         </div>
       </div>
-      <Panel />
+      {/* <Panel /> */}
     </>
   );
 }
