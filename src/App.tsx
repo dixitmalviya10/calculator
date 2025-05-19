@@ -56,7 +56,7 @@ function App() {
                 type="text"
                 value={value}
                 className="w-full h-16 px-2 outline-none text-right"
-                autoFocus
+                readOnly
               />
             </div>
 
