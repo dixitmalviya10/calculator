@@ -1,4 +1,6 @@
+import popSound from "../assets/sounds/pop-sound.mp3";
+
 export function playClickSound() {
-  const audio = new Audio("/src/assets/sounds/pop-268648.mp3");
+  const audio = new Audio(popSound);
   audio.play();
 }
