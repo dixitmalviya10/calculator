@@ -51,10 +51,16 @@ function App() {
             Calculator
           </h2>
           <div className="border-t-2">
-            <div className="text-right text-4xl mx-2 my-3 font-semibold overflow-x-clip">
-              {value}
+            <div className="text-4xl font-semibold">
+              <input
+                type="text"
+                value={value}
+                className="w-full h-16 px-2 outline-none text-right"
+                autoFocus
+              />
             </div>
-            <div className="grid grid-cols-4 gap-1 p-1">
+
+            <div className="grid grid-cols-4 gap-1 px-1 pb-1">
               {CALCINPUTS.map((inputs, index) => (
                 <button
                   key={index}
